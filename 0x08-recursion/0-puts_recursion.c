@@ -7,21 +7,21 @@
 
 /**
  * _puts_recursion - Function
- * @c: char
+ * @s: char
  *
  * Return: Nothing
  */
 
-void _puts_recursion(char *c)
+void _puts_recursion(char *s)
 {
-	if (*c == '\0')
+	if (*s == '\0')
 	{
 		_putchar('\n');
 	}
 	else
 	{
-		_putchar(*c);
-		c++;
-		_puts_recursion(c);
+		_putchar(*s);
+		s++;
+		_puts_recursion(s);
 	}
 }
