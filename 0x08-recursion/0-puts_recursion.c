@@ -9,14 +9,14 @@
  * _puts_recursion - Function
  * @s: char
  *
- * Return: Nothing
+ * Return: 0
  */
 
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
 	{
-		_putchar('\n');
+		_putchar(10);
 	}
 	else
 	{
