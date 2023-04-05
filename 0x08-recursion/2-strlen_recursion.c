@@ -10,7 +10,7 @@
  *
  * @s: char
  *
- * Return 0
+ * Return: 0
  */
 
 
