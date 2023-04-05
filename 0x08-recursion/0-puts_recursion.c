@@ -9,7 +9,7 @@
  * _puts_recursion - Function
  * @s: char
  *
- * Return: 0
+ * Return: void
  */
 
 void _puts_recursion(char *s)

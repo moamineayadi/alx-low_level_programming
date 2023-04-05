@@ -9,7 +9,7 @@
  * _print_rev_recursion - reverse
  *
  * @s: char
- * Return: Nothing
+ * Return: void
  */
 
 void _print_rev_recursion(char *s)
