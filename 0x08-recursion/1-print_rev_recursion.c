@@ -8,15 +8,15 @@
 /**
  * _print_rev_recursion - reverse
  *
- * @ch: char
+ * @s: char
  * Return: Nothing
  */
 
-void _print_rev_recursion(char *ch)
+void _print_rev_recursion(char *s)
 {
-	if (*ch)
+	if (*s)
 	{
-		_print_rev_recursion(ch + 1);
-		_putchar(*ch);
+		_print_rev_recursion(s + 1);
+		_putchar(*s);
 	}
 }
