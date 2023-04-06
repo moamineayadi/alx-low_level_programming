@@ -24,10 +24,6 @@ int _sqrt_(int n, int k)
 	{
 		return (1);
 	}
-	if (n == k * k)
-	{
-		return (n);
-	}
 	if (k > n / 2)
 	{
 		return (-1);
@@ -35,6 +31,10 @@ int _sqrt_(int n, int k)
 	if (n != k * k)
 	{
 		return (_sqrt_(n, k+1));
+	}
+	else
+	{
+		return (n);
 	}
 	return (-1);
 }
