@@ -28,18 +28,15 @@ int _sqrt_(int n, int k)
 	{
 		return (-1);
 	}
-	else if (n != k * k)
+	if (n != k * k)
 	{
 		return (_sqrt_(n, k+1));
 	}
-	else if (n == k*k)
+	if (n == k*k)
 	{
 		return (n);
 	}
-	else
-	{
-		return (-1);
-	}
+	return (-1);
 }
 
 /*
