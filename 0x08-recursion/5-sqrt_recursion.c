@@ -17,9 +17,13 @@
 int _sqrt_(int n, int k)
 {
 	if ((n)-(k*k) <= 0)
+	{
 		return(k);
+	}
 	else
+	{
 		_sqrt_(n,k+1);
+	}
 }
 
 /*
