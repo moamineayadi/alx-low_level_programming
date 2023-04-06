@@ -30,7 +30,7 @@ int _sqrt_(int n, int k)
 	}
 	else if (n != k * k)
 	{
-		return (sqrt(n, k+1));
+		return (_sqrt_(n, k+1));
 	}
 	else if (n == k*k)
 	{
