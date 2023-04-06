@@ -20,11 +20,11 @@ int _sqrt_(int n, int k)
 	{
 		return (-1);
 	}
-	else if (n == 0)
+	if (n == 0)
 	{
 		return (1);
 	}
-	if (k > n /2)
+	if (k > n / 2)
 	{
 		return (-1);
 	}
@@ -32,7 +32,7 @@ int _sqrt_(int n, int k)
 	{
 		return (_sqrt_(n, k+1));
 	}
-	if (n == k*k)
+	if (n == k * k)
 	{
 		return (n);
 	}
