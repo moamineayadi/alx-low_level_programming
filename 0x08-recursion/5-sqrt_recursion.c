@@ -16,27 +16,10 @@
 
 int _sqrt_(int n, int k)
 {
-	if (n < 0)
-	{
-		return (-1);
-	}
-	if (n == 1)
-	{
-		return (1);
-	}
-	if (k > n / 2)
-	{
-		return (-1);
-	}
-	if (n != k * k)
-	{
-		return (_sqrt_(n, k+1));
-	}
-	if (n == k * k)
-	{
-		return (n);
-	}
-	return (-1);
+	if ((n)-(k*k) <= 0)
+		return(k)
+	else
+		_sqrt_(n,k+1);
 }
 
 /*
