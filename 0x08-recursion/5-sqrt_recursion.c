@@ -26,7 +26,7 @@ int _sqrt_(int n, int k)
 	}
 	else if (k > n /2)
 	{
-		return (-1)
+		return (-1);
 	}
 	else if (n != k * k)
 	{
