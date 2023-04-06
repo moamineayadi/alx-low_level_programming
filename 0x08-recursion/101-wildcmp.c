@@ -23,7 +23,7 @@ int wildcmp(char *s1, char *s2)
 		}
 		return(*s2 == '\0');
 	}
-	if (*s2 == "*")
+	if (*s2 == '*')
 	{
 		return (wildcmp(s1 + 1, s2));
 	}
