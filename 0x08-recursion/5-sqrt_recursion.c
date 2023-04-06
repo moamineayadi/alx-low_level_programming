@@ -24,7 +24,7 @@ int _sqrt_(int n, int k)
 	{
 		return (1);
 	}
-	else if (k > n /2)
+	if (k > n /2)
 	{
 		return (-1);
 	}
