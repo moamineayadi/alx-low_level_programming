@@ -32,7 +32,7 @@ int _sqrt_(int n, int k)
 	{
 		return (_sqrt_(n, k+1));
 	}
-	else
+	if (n == k * k)
 	{
 		return (n);
 	}
