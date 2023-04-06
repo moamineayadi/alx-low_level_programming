@@ -5,7 +5,7 @@
 
 #include "main.h"
 
-/*
+/**
  * _sqrt_ - Gives square root of number
  *
  * @n: int
@@ -16,17 +16,21 @@
 
 int _sqrt_(int n, int k)
 {
-	if ((n)-(k*k) <= 0)
+	if (n < 0)
 	{
-		return(k);
+		return (-1);
+	}
+	if ((n) - (k * k) <= 0)
+	{
+		return (k);
 	}
 	else
 	{
-		return(_sqrt_(n,k+1));
+		return (_sqrt_(n, k + 1));
 	}
 }
 
-/*
+/**
  * _sqrt_recursion - Return sqrt of number
  *
  * @n: int
@@ -36,5 +40,5 @@ int _sqrt_(int n, int k)
 
 int _sqrt_recursion(int n)
 {
-	return (_sqrt_(n,0));
+	return (_sqrt_(n, 0));
 }
