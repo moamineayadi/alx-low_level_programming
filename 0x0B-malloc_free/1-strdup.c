@@ -2,17 +2,18 @@
  * File : 1-strdup.c
  * Author : moamineayadi
  */
+
 #include "main.h"
 #include <stdlib.h>
 
 /**
+ * *_strdup - return a pointer to mem
  *
- * _strdup - return a pointer to mem
  * @str: string
  *
  * Return: char
  *
- */
+*/
 
 char *_strdup(char *str)
 {
@@ -29,7 +30,7 @@ char *_strdup(char *str)
 		size++;
 	}
 
-	pointer = malloc(sizeof(char) * size +1 );
+	pointer = malloc(sizeof(char) * size + 1);
 
 	if (pointer == NULL)
 	{
