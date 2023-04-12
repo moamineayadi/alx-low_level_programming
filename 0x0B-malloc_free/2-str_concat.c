@@ -56,6 +56,7 @@ char *str_concat(char *s1, char *s2)
 		j++;
 		i++;
 	}
+	pointer[i] = s2[j];
 	return (pointer);
 }
 
