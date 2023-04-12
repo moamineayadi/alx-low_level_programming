@@ -21,7 +21,7 @@ char *_strdup(char *str)
 
 	if (str == NULL)
 	{
-		retrun (NULL)
+		retrun (NULL);
 	}
 
 	while (str[size])
