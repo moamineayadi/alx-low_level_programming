@@ -1,3 +1,7 @@
+/*
+* File: 1-string_nconcat.c
+* Author: moaminayadi
+*/
 #include "main.h"
 #include <stdlib.h>
 #include <string.h>
