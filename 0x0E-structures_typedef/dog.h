@@ -3,8 +3,15 @@
 * Author: moamineayadi
 */
 
-#ifndef DOG
-#define DOG
+#ifndef DOG_H
+#define DOG_H
+
+/**
+ * dog_t - Prototypes for struct dog
+ */
+typedef struct dog dog_t;
+
+void init_dog(struct dog *d, char *name, float age, char *owner);
 
 /**
  * struct dog - class for a dog
@@ -22,7 +29,5 @@ struct dog
 	float age;
 	char *owner;
 };
-
-void init_dog(struct dog *d, char *name, float age, char *owner);
 
 #endif /* DOG */
