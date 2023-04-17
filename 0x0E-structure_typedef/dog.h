@@ -2,8 +2,14 @@
 * File: dog.h
 * Author: moamineayadi
 */
+/**
+* struct dog - holds variable
+* @name: char
+* @age: int
+* @owner: char
+*/
 
-typedef struct dog
+struct dog
 {
 	char *name;
 	float age;
