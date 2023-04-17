@@ -2,6 +2,8 @@
 * File: dog.h
 * Author: moamineayadi
 */
+
+
 /**
 * struct dog - holds variable
 * @name: char
