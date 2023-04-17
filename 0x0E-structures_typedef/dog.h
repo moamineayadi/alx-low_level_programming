@@ -2,8 +2,6 @@
 * File: dog.h
 * Author: moamineayadi
 */
-#ifndef _DOG_H
-#define _DOG_H
 
 /**
  * struct dog - A struct representing a dog
@@ -18,5 +16,3 @@ struct dog
 	float age;
 	char *owner;
 } dog;
-
-#endif /* DOG_H */
