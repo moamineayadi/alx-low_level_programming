@@ -3,15 +3,17 @@
 * Author: moamineayadi
 */
 
-#ifndef _DOG_H
-#define _DOG_H
+#ifndef DOG
+#define DOG
 
 /**
- * struct dog - a new type
+ * struct dog - class for a dog
  *
- * @name: the name of the dog (Django)
- * @age: the age of the dog (3.5)
- * @owner: the name of the owner (Jay)
+ * @name: dog's name
+ *
+ * @age: dog's age
+ *
+ * @owner: owner's name
  */
 struct dog
 {
