@@ -3,6 +3,8 @@
 * Author: moamineayadi
 */
 
+#ifdef _DOG_H
+#define _DOG_H
 
 /**
 * struct dog - holds variable
@@ -17,3 +19,5 @@ struct dog
 	float age;
 	char *owner;
 }
+
+#endif
