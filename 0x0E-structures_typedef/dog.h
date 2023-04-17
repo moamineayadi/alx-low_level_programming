@@ -1,5 +1,7 @@
-#ifndef _DOG_H
-#define _DOG_H
+/*
+* File: dog.h
+* Author: moamineayadi
+*/
 
 /**
  * struct dog - a new type
@@ -8,14 +10,10 @@
  * @age: dog's age
  * @owner: owner's name
  */
-typedef struct dog
+
+struct dog
 {
 	char *name;
 	float age;
 	char *owner;
 }
-	dog;
-
-int _putchar(char c);
-
-#endif /* DOG */
