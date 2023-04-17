@@ -2,6 +2,7 @@
 * File: 1-init_dog.c
 * Author: moamineayadi
 */
+
 #include <stdio.h>
 #include "dog.h"
 
