@@ -3,21 +3,21 @@
 * Author: moamineayadi
 */
 
-#ifdef _DOG_H
-#define _DOG_H
+#ifndef DOG_H
+#define DOG_H
 
 /**
-* struct dog - holds variable
-* @name: char
-* @age: int
-* @owner: char
-*/
+ * struct dog - A struct representing a dog
+ * @name: The dog's name
+ * @age: The dog's age
+ * @owner: The dog's owner's name
+ */
 
 struct dog
 {
-	char *name;
-	float age;
-	char *owner;
-}
+    char *name;
+    float age;
+    char *owner;
+};
 
-#endif
+#endif /* DOG_H */
