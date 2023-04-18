@@ -1,3 +1,7 @@
+/*
+* File: 2-main.c
+* Author: moamineayadi
+*/
 
 #include <stdio.h>
 
